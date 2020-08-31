@@ -2,6 +2,10 @@
 
 ## 介绍
 OkHttp拦截器，为请求体Body或者请求头Header添加公共参数
+ * 支持get、post、delete、put
+ * 表单 FormBody application/x-www-form-urlencoded
+ * 文件 MultipartBody multipart/form-data
+ * json
 
 ### 使用 Gradle 集成
 
