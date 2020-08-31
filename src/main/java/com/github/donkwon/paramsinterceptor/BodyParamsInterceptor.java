@@ -14,6 +14,14 @@ import java.io.Writer;
 import java.nio.charset.Charset;
 import java.util.Map;
 
+/**
+ * 请求体加参数
+ * 支持GET\DELETE\PUT\POST
+ * 支持：
+ * 表单 FormBody application/x-www-form-urlencoded
+ * 文件 MultipartBody multipart/form-data
+ * json
+ */
 public abstract class BodyParamsInterceptor implements Interceptor {
 
     protected abstract Map<String, String> getBodyCommonParameters();

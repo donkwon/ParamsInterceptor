@@ -7,6 +7,9 @@ import okhttp3.Response;
 import java.io.IOException;
 import java.util.Map;
 
+/**
+ * 请求头追加参数
+ */
 public abstract class HeaderParamsInterceptor implements Interceptor {
 
     protected abstract Map<String, String> getHeaderParameters();
