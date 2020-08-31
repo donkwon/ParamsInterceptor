@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.github.donkwon'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+
+    //json解析框架
+    implementation 'com.google.code.gson:gson:2.8.2'
+    //okhttp
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+}
